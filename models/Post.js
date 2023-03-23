@@ -15,7 +15,7 @@ Post.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-        desription: {
+        description: {
             type: DataTypes.STRING,
             validate: {
                 len: [0, 140],
